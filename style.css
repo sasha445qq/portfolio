@@ -1,0 +1,149 @@
+body{
+    color: #222;
+    background-color: #fafafa;
+     font-family: Arial, sans-serif;
+}
+
+header{
+position:sticky;
+top:0;
+display:flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px 50px;
+background: rgba(255, 255, 255, 0.8);
+backdrop-filter: blur(8px);
+box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+}
+.logo {
+    font-weight: bold;
+    font-size: 24px;
+
+}
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+nav a:hover {
+    color: #007BFF;
+}
+
+.hero {
+    text-align: center;
+     background: linear-gradient(to bottom right, #e3f2fd, #fff);
+     padding: 200px 50px;
+
+}
+.pasha {
+    display: block;
+    margin: 0 auto;
+    border-radius: 15px;
+    width: 250px;
+    transition: ease 0.3s;
+}
+.pasha:hover {
+     transform: translateY(-10px);
+}
+
+.hero h1{ 
+    font-size: 30px;
+    margin-bottom: 10px;
+
+}
+
+.hero p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.btn {
+    display: inline-block;
+    color:white;
+    background-color: #007BFF;
+    border-radius: 15px;
+    text-decoration: none;
+    padding: 10px 20px;
+    width: 150px;
+    transition: 0.03s;
+    }
+
+.btn:hover { 
+    background: #0056b3;
+
+}
+
+.projects {
+    padding: 60px 20px;
+    text-align: center;
+}
+ 
+.projects h2 {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.conteiner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+}
+
+.card {
+    background-color: white;
+    border-radius: 15px;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);;
+    padding: 20px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+     transform: translateY(-5px);
+}
+
+.img-card {
+    border-radius: 15px;
+    width: 100%;
+}
+
+
+
+.skills {
+    
+    text-align: center;
+}
+
+
+
+.skills ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.skills li{
+    background: white;
+    border-radius: 15px;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.contact {
+    text-align: center;
+    padding: 60px 20px;
+
+}
+.footer {
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+}
